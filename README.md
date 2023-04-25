@@ -8,9 +8,9 @@ Assess the tasks and import whatever the libraries are required for you.
 
 1. Import the .csv file from the folder. This file consists of initial characterization batterie( Tests performed from 100% to 0%). what is the capacity of the batterie?
 2. Analyse the data in detail and extract the parameters of li ion cell equivalant circuit model(ECM). (Assume a 2nd order equivalant circuit model). Hint: try to use current interruption technique to extract the parameters.
-3. Extract ocv values of the cell w.r.t SoC and plot the curve.
-4. Extract other cell parameters and plot them w.r.t the SoC. hint: You can use any non linear optimization methods to parametrize the ECM model. i.e. scipy library, curve_fit etc.
-5. Plot w.r.t time V_actual & V_simulated after building the model with the extracted parameters. 
+ - Extract ocv values of the cell w.r.t SoC and plot the curve.
+ - Find the other cell parameters and plot them w.r.t the SoC. hint: You can use any non linear optimization methods to parametrize the ECM model. i.e. scipy library, curve_fit etc.
+5. Plot w.r.t time V_actual(mesurement from the csv file) & V_simulated (voltage response to the current from the csv file) after building the model with the extracted parameters. 
 6. Plot error with respect to time
 7. Plot the error distribution.
 
